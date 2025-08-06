@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-inner" id="cardInner">
+        <!-- FRONT OF CARD -->
+        <div class="card-front">
+          <img src="./images/bg-card-front.png" class="chip" alt="chip" />
+          <div class="card-number" id="displayCardNumber">**** **** **** 0000</div>
+          <div class="card-name" id="displayName">JANE APPLESEED</div>
+          <div class="card-expiry" id="displayExpiry">00/00</div>
+        </div>
+
+        <!-- BACK OF CARD -->
+        <div class="card-back">
+          <div class="black-strip"></div>
+          <div class="cvv-box">
+            <label>CVV</label>
+            <div id="displayCvv">*</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-form">
+      <form id="cardForm">
+        <label>Cardholder Name</label>
+        <input type="text" id="cardName" placeholder="e.g. Jane Appleseed" required />
+
+        <label>Card Number</label>
+        <input type="text" id="cardNumber" maxlength="16" placeholder="e.g. 1234 5678 9123 0000" required />
+
+        <label>Exp. Date (MM/YY)</label>
+        <input type="text" id="expDate" maxlength="5" placeholder="MM/YY" required />
+
+        <label>CVC</label>
+        <input type="text" id="cvv" maxlength="3" placeholder="e.g. 123" required />
+
+        <button type="submit">Confirm</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
