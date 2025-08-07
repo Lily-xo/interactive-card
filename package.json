@@ -3,6 +3,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+  },
+  "name": "card",
+  "version": "1.0.0",
+  "description": "A simple, responsive interactive credit card form built with HTML, CSS, and JavaScript.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lily-xo/interactive-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lily-xo/interactive-card/issues"
+  },
+  "homepage": "https://github.com/Lily-xo/interactive-card#readme",
+  "dependencies": {
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   }
 }
-
