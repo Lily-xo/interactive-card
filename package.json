@@ -23,9 +23,8 @@
     "url": "https://github.com/Lily-xo/interactive-card/issues"
   },
   "homepage": "https://github.com/Lily-xo/interactive-card#readme",
-  "dependencies": {
-    "next": "^15.4.6",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
-  }
+  "dependencies":{
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"}
 }
